@@ -1,0 +1,38 @@
+name: build-and-deploy
+
+on:
+  push:
+    branches: [ main ]
+
+env:
+  AZURE_FUNCTIONAPP_NAME: tm-tickets-func
+  PROJECT_PATH: tm-tickets-func           # <--- set to folder containing the .csproj
+  DOTNET_VERSION: '8.0.x'
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: ${{ env.DOTNET_VERSION }}
+
+      - name: Restore
+        run: dotnet restore $PROJECT_PATH
+
+      - name: Build
+        run: dotnet build $PROJECT_PATH --configuration Release --no-restore
+
+      - name: Publish
+        run: dotnet publish $PROJECT_PATH --configuration Release --output publish
+
+      - name: Deploy to Azure Functions
+        uses: Azure/functions-action@v1
+        with:
+          app-name: ${{ env.AZURE_FUNCTIONAPP_NAME }}
+          package: publish
+
+          
