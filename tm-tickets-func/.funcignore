@@ -1,0 +1,11 @@
+# Exclude local-only files from deployment
+local.settings.json
+.vscode/
+.git/
+.gitignore
+bin/
+obj/
+tests/
+*.md
+*.env
+publish/

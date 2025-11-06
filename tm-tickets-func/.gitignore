@@ -1,0 +1,14 @@
+bin/
+obj/
+.localsettings.json
+.vscode/
+*.user
+*.suo
+*.dbmdl
+*.log
+*.pyc
+*.pdb
+*.env
+*.publish.xml
+node_modules/
+publish/
