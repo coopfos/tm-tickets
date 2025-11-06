@@ -1,0 +1,18 @@
+# Dotnet build artifacts
+bin/
+obj/
+
+# GitHub Actions local artifacts (if run locally)
+publish/
+output/
+
+# macOS
+.DS_Store
+
+# Xcode build artifacts
+TM Tickets.xcodeproj/project.xcworkspace/xcuserdata/
+TM Tickets.xcodeproj/xcuserdata/
+
+# Office temporary files
+~$*
+
