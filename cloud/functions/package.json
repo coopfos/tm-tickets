@@ -1,0 +1,28 @@
+{
+  "name": "tm-tickets-functions",
+  "version": "0.1.0",
+  "private": true,
+  "type": "commonjs",
+  "main": "dist/src/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "clean": "rimraf dist",
+    "start": "func start",
+    "watch": "tsc -w -p tsconfig.json"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@azure/data-tables": "^13.3.0",
+    "@azure/functions": "^4.4.0",
+    "@azure/identity": "^4.1.0",
+    "@azure/storage-blob": "^12.18.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.19.0",
+    "rimraf": "^5.0.5",
+    "typescript": "^5.4.0"
+  }
+}
+

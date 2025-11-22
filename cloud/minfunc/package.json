@@ -1,0 +1,10 @@
+{
+  "name": "minfunc",
+  "version": "0.0.1",
+  "private": true,
+  "type": "commonjs",
+  "main": "index.js",
+  "dependencies": {
+    "@azure/functions": "^4.4.0"
+  }
+}

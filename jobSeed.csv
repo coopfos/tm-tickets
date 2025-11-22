@@ -1,0 +1,173 @@
+﻿PartitionKey,jobNumber,jobName,customerName,projectManager
+job-numbers,6014,ALCAD Battery Maint,Equifax,Jace Holmes
+job-numbers,6060,Harris Bld Demo,DPR Construction,Shane Pulliam
+job-numbers,6070,MSM Conference Ctr,DPR Construction,Shane Pulliam
+job-numbers,6100,North Metro Baptist Church,Van Winkle,Mike Brown
+job-numbers,6200,QTS,Hitt Contracting,Wayne Johnson
+job-numbers,6220,GA State University,J E Dunn Construction,Shane Pulliam
+job-numbers,6230,MSM NCPC Auditorium,DPR Construction,Shane Pulliam
+job-numbers,6280,Westminster - Blake Ctr,New South Construction,Shane Pulliam
+job-numbers,6290,Woodruff Arts (HM ART),Robert W Woodruff Art,Jace Holmes
+job-numbers,6300,Westminster - Day Care,Hodges & Hicks,Gary Parrott
+job-numbers,6303,Generator Cobb ME Office ,Yancey Bros,Gary Parrott
+job-numbers,6310,Westminster - Central Plant,New South Construction,Shane Pulliam
+job-numbers,6320,Insight C Global,Campus 244 Phs 1,Gary Parrott
+job-numbers,6330,3rd Fl Decommissioning,Equifax,Jace Holmes
+job-numbers,6338,Gen Maint 3 Years,Equifax,Jace Holmes
+job-numbers,6340,Reno Restrooms Design,Humphries,Tyler Wissing
+job-numbers,6360,2025 Maintenance ,Lexis Nexis,Mike Brown
+job-numbers,6370,Equifax Std Maintenance,Equifax,Jace Holmes
+job-numbers,6375,GT Classroom Remodel,Winter Construction,Jace Holmes
+job-numbers,6385,Install Pole Lights,Campus 244 Beacon Cap,Gary Parrott
+job-numbers,6390,Ethos Middle School,Winter Construction,Gary Parrott
+job-numbers,6400,Legislative Office Building,Balfour Beatty,Mike Brown
+job-numbers,6407,ATS Maintenenace (5 yrs),Equifax,Jace Holmes
+job-numbers,6420,WAC Campus Refresh,Humphries & Co,Tyler Wissing
+job-numbers,6450, Tech Square Phase 3B,Winter Construction,Wayne Johnson
+job-numbers,6455,911 Call Center,City of East Point,Jace Holmes
+job-numbers,6460,ALC Project,Coresite ATL1,Mike Brown
+job-numbers,6470,Equifax 3rd Fl Demo,Hitt Contracting,Jace Holmes
+job-numbers,6475,AG Building Demo,Balfour Beatty,Gary Parrott
+job-numbers,6480,Gen Maint Bld 1435,Equifax,Jace Holmes
+job-numbers,6483,Install Quad recept,Equifax,Jace Holmes
+job-numbers,6484,Substation UB PQM meters,Equifax,Jace Holmes
+job-numbers,6485,MAU Feeder rework,Equifax,Jace Holmes
+job-numbers,6490,Svs for chiller replacement,Lexis Nexis,Mike Brown
+job-numbers,6495,AT I Temp Gen,Coresite Atl 1,Mike Brown
+job-numbers,7005,Tull Hall Demo,Hodges & Hicks,Jace Holmes
+job-numbers,7007,PIU Power,Lexis Nexis,Mike Brown
+job-numbers,7010,GT Mose Kim Lab,Winter Construction,Mike Brown
+job-numbers,7015,Google Fiber,Coresite Atl 2,Mike Brown
+job-numbers,7020,Boiler Replacement,Lexis Nexis,Mike Brown
+job-numbers,7021,Car Chargers,Equifax,Jace Holmes
+job-numbers,7024,Install (2) L6-30's,Coresite,Mike Brown
+job-numbers,7025,(2) 400 Amp Buss plugs,Equifax,Jace Holmes
+job-numbers,7026,8th Fl DC 50 Amp Circuits,Coresite,Mike Brown
+job-numbers,7027,Replace (4) Switches,Resurgence Charter Sc,Wayne Johnson
+job-numbers,7032,Install (2) L6-30's,Coresite,Mike Brown
+job-numbers,7033,Elevator Phone Line,Lexis Nexis,Mike Brown
+job-numbers,7035,Fire Suppression ,Colliers/Equifax,Jace Holmes
+job-numbers,7036,IR Scanning support,Coresite ATL 1,Mike Brown
+job-numbers,7037,Power Feeds,Coresite ATL 2,Mike Brown
+job-numbers,7039,Replace Car Chargers ,Equifax,Jace Holmes
+job-numbers,7041,Replace UPS Batteries,Equifax,Jace Holmes
+job-numbers,7042,Service UPS (Boise),Equifax,Jace Holmes
+job-numbers,6325TM,Misc T & M Proj,Woodruff Arts Ctr,Tyler Wissing
+job-numbers,6380TM,2025 T & M,Shepherd Center,Jace Holmes
+job-numbers,6440TM,T&M QTS (TFO),Hitt Contracting,Mike Brown
+job-numbers,6481TM,Central Plant Gear,Westminster School,Shane Pulliam
+job-numbers,6496TM,Emergency Alarm SCADA,Equifax,Jace Holmes
+job-numbers,6497TM,(2) L6-30 Recep,Coresite ATL 1,Mike Brown
+job-numbers,7001TM,Install (2) L6-30 Rm810,Coresite Atl 1,Mike Brown
+job-numbers,7002TM,CAB 103 (2) l6-30,Coresite ATL 1,Mike Brown
+job-numbers,7004TM,Equifax Mini Split ,McKenneys,Jace Holmes
+job-numbers,7006TM,5th Fl Breaker change out,Coresite ATL1,Mike Brown
+job-numbers,7009TM,Replace VFD's x 4,McKenneys,Jace Holmes
+job-numbers,7014TM,Fire Suppression Main,Colliers (JVW2),Jace Holmes
+job-numbers,7016TM,Inspect Gen (Yancey),Equifax,Jace Holmes
+job-numbers,7018TM,Install (2) 60amp,Coresite Atl1,Mike Brown
+job-numbers,7019TM,Install (2) L6-30 Rm810,Coresite Atl1,Mike Brown
+job-numbers,7022TM,5th Floor L6-30's,Coresite Atl1,Mike Brown
+job-numbers,7023TM,50 Amp DC Feed,Coresite Atl1,Mike Brown
+job-numbers,7028TM,F & I (2) L6-30,Coresite Atl1,Mike Brown
+job-numbers,7029TM,F & I (2) L6-30 CAB G09,Coresite Atl 1,Mike Brown
+job-numbers,7031TM,F & I (2) 30A 3 pole rec,Coresite ATL 1,Mike Brown
+job-numbers,7034TM,Troubleshoot LED lights,SK Commerical Realty,Mike Brown
+job-numbers,7038TM,Troubleshoot Kitchen Hood,Lexis Nexis,Mike Brown
+job-numbers,7043TM,Install (1) L5-20,Cyberwurx,Mike Brown
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,

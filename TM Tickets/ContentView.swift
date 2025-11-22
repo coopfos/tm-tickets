@@ -8,6 +8,10 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var showingSettings = false
+    @State private var showingLoadDraft = false
+    @State private var loadedDraft: ApiClient.DraftDocument? = nil
+
     var body: some View {
         NavigationStack {
             VStack(spacing: 24) {
@@ -24,7 +28,7 @@ struct ContentView: View {
                     .foregroundStyle(.secondary)
 
                 NavigationLink {
-                    TicketEditorView()
+                    TicketEditorView(draft: nil)
                 } label: {
                     Text("New Ticket")
                         .frame(maxWidth: .infinity)
@@ -33,9 +37,40 @@ struct ContentView: View {
                 .controlSize(.large)
                 .padding(.horizontal)
 
+                Button {
+                    showingLoadDraft = true
+                } label: {
+                    Text("Load Draft")
+                        .frame(maxWidth: .infinity)
+                }
+                .buttonStyle(.bordered)
+                .controlSize(.large)
+                .padding(.horizontal)
+
                 Spacer()
             }
             .navigationTitle("Home")
+            .toolbar {
+                ToolbarItem(placement: .primaryAction) {
+                    Button {
+                        showingSettings = true
+                    } label: {
+                        Image(systemName: "gear")
+                    }
+                    .accessibilityLabel("Settings")
+                }
+            }
+            .sheet(isPresented: $showingSettings) {
+                SettingsView()
+            }
+            .sheet(isPresented: $showingLoadDraft) {
+                LoadDraftView { doc in
+                    if let doc { self.loadedDraft = doc }
+                }
+            }
+            .navigationDestination(isPresented: Binding(get: { loadedDraft != nil }, set: { if !$0 { loadedDraft = nil } })) {
+                TicketEditorView(draft: loadedDraft)
+            }
         }
     }
 }
