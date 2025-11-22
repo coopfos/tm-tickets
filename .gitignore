@@ -16,3 +16,9 @@ TM Tickets.xcodeproj/xcuserdata/
 # Office temporary files
 ~$*
 
+# Node/Azure Functions (cloud backend)
+cloud/functions/node_modules/
+cloud/functions/dist/
+cloud/functions/.azuretools/
+cloud/functions/.funcignore
+cloud/functions/local.settings.json

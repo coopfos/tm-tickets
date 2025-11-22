@@ -1,0 +1,13 @@
+{
+  "name": "minidraft",
+  "version": "0.0.1",
+  "private": true,
+  "type": "commonjs",
+  "main": "index.js",
+  "dependencies": {
+    "@azure/functions": "^4.4.0",
+    "@azure/identity": "^4.1.0",
+    "@azure/storage-blob": "^12.18.0",
+    "@azure/data-tables": "^13.3.0"
+  }
+}
